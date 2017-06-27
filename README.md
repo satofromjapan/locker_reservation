@@ -1,25 +1,8 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Locker project created to practice Ruby on Rails
 # locker_reservation
+TODO
+
+- Clean up code on controllers
+- Add logic in the case a locker of a specified size is not available
+- Add logic to be able to search by "Guest Name" as well as reservation number.
