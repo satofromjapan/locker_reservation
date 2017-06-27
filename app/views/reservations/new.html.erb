@@ -1,0 +1,14 @@
+<h1>Create a new reservation</h1>
+<form class="" action="/reservations" method="post">
+  <input type = 'hidden' name = "authenticity_token" value = "<%=form_authenticity_token%>">
+  <label for="guest">Guest Name:</label>
+  <input type="text" name="guest" value="">
+  <label for="size">Bag Size:</label>
+  <select class="" name="size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+    </optgroup>
+  </select>
+  <input type="submit" name="" value="Create Reservation">
+</form>

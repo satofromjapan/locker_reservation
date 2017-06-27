@@ -1,0 +1,9 @@
+<h1>Find a reservation</h1>
+<form class="" action="/reservations/find" method="post">
+  <input type = 'hidden' name = "authenticity_token" value = "<%=form_authenticity_token%>">
+  <input type="text" name="id" value="">
+  <input type="submit" name="" value="Find">
+</form>
+
+<a href="/reservations/new"><button type="button" name="button">New Reservation</button></a>
+<a href="/lockers"><button type="button" name="button">Locker Availability</button></a>

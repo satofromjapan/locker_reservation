@@ -1,0 +1,15 @@
+<h1>Reservation for <%=@res.guest%></h1>
+<h3>Receipt</h3>
+<div class="receipt" style="border: 1px solid black; width: 200px; padding: 10px">
+  <p>Reservation No.: <%=@res.id%></p>
+  <p>Guest name: <%=@res.guest%></p>
+  <p>Locker: <%=@res.locker.id%></p>
+</div>
+<a href="/">Go Back</a>
+
+<h3>Picking Up Bag?</h3>
+<form class="" action="/reservations/<%=@res.id%>" method="post">
+  <input type = 'hidden' name = "authenticity_token" value = "<%=form_authenticity_token%>">
+  <input type="hidden" name="_method" value="delete">
+  <input type="submit" name="" value="Return Bag and Empty Locker">
+</form>

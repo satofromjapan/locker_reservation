@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  guest: MyString
+  locker: one
+
+two:
+  guest: MyString
+  locker: two
